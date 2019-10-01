@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<?xml-stylesheet type="text/xsl" href = "assignment1.xslt" ?>
-<!DOCTYPE Theaters SYSTEM "theaters.dtd">
+<?xml-stylesheet type="text/css" href = "assignment1.css" ?>
 
-<Theaters>
+<Theaters xsi:noNamespaceSchemaLocation="fandago.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	
     <Theater>
     <Name>Movies 10</Name>
     <Address>2613 West Henrietta Road, Rochester NY 14623</Address>
