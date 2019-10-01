@@ -1,0 +1,12 @@
+﻿<?xml encoding="utf-8"?>
+
+<!ELEMENT Theaters (Theater)+>
+<!ELEMENT Theater (Name,Address,Movies)>
+<!ELEMENT Name (#PCDATA)>
+<!ELEMENT Address (#PCDATA)>
+<!ELEMENT Movies (movie)+>
+<!ELEMENT movie (name,rating,duration,showtimes)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT rating (#PCDATA)>
+<!ELEMENT duration (#PCDATA)>
+<!ELEMENT showtimes (#PCDATA)>

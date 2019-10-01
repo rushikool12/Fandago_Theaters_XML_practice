@@ -1,0 +1,54 @@
+Theaters {
+	background:#FFA955;
+	display: grid;
+	grid-template-columns: 2fr 2fr 2fr;
+	grid-gap: 1em;
+	margin: 10px;
+	padding: 10px;
+}
+Theater {
+	margin: 5px;
+	padding: 10px;
+	display: block;
+	background: #0095B2;
+	border: 1px solid black;
+}
+Name {
+	font-family: Georgia;
+	color: white;
+	margin-bottom: 3px;
+	font-size: 20pt;
+	font-weight: bold;
+	
+}
+Address {
+	display: block;	
+	font-style: italic;
+	margin-bottom: 5px;
+}
+name {
+	font-weight: bold;
+	font-family: Arial;
+}
+movie{
+	background: #9FFFE9;
+	display: grid;
+	border: 1px solid black;
+	padding: 10px;
+}
+showtimes {
+	margin: 2px;
+	padding: 3px;
+	display: block;
+	float: right;
+	border: 1px solid black;
+}
+rating:before {
+	content: "Rating: ";
+}
+duration:before {
+	content: "Duration: ";
+}
+showtimes:before {
+	content: "Showtimes: ";
+}

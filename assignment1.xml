@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href = "assignment1.xslt" ?>
+<!DOCTYPE Theaters SYSTEM "theaters.dtd">
+
+<Theaters>
+    <Theater>
+    <Name>Movies 10</Name>
+    <Address>2613 West Henrietta Road, Rochester NY 14623</Address>
+    <Movies>
+        <movie>
+            <name>Happytime Murders</name>
+            <rating>R</rating>
+            <duration>1 hr 31 min</duration>
+            <showtimes> 12:25p | 5:45p | 7:50p </showtimes>
+        </movie>
+        <movie>
+            <name>Alpha</name>
+            <rating>PG-13</rating>
+            <duration>1 hr 37 min</duration>
+            <showtimes> 12:20p | 2:35p | 4:50p | 7:15p </showtimes>
+        </movie>
+        <movie>
+            <name>Mile 22</name>
+            <rating>R</rating>
+            <duration>1 hr 35 min</duration>
+            <showtimes> 12:05p | 3:35p | 7:25p </showtimes>
+        </movie>
+        <movie>
+            <name>Slender Man</name>
+            <rating>PG-13</rating>
+            <duration>1 hr 33 min</duration>
+            <showtimes> 7:40p </showtimes>
+        </movie>
+        <movie>
+            <name>The Spy Who Dumped Me</name>
+            <rating>R</rating>
+            <duration>1 hr 56 min</duration>
+            <showtimes> 2:30p </showtimes>
+        </movie>
+    </Movies>
+    </Theater>
+    <Theater>
+    <Name>Regal Culver Plaza 16</Name>
+    <Address>255 Ridge Road East, Irondequoit, NY 14622 </Address>
+    <Movies>
+        <movie>
+            <name>Life Itself(2018)</name>
+            <rating>R</rating>
+            <duration>1 hr 58 min</duration>
+            <showtimes>1:45p | 4:30p | 7:15p | 10:00p </showtimes>
+        </movie>
+        <movie>
+            <name>The House with a Clock in its Walls</name>
+            <rating>PG</rating>
+            <duration>1 hr 45 min</duration>
+            <showtimes>2:15p | 4:55p | 7:45p | 10:20p </showtimes>
+        </movie><movie>
+            <name>A Simple Favor</name>
+            <rating>R</rating>
+            <duration>1 hr 56 min</duration>
+            <showtimes>1:20p | 4:15p | 7:20p | 10:05p </showtimes>
+        </movie><movie>
+            <name>The Predator(2018)</name>
+            <rating>R</rating>
+            <duration>1 hr 41 min</duration>
+            <showtimes>1:30p | 4:05p | 7:00p | 9:40p </showtimes>
+        </movie><movie>
+            <name>White Boy Rick</name>
+            <rating>R</rating>
+            <duration>1 hr 51 min</duration>
+            <showtimes>1:35p | 4:35p | 7:25p | 10:15p </showtimes>
+        </movie>
+    </Movies>
+    </Theater>
+    <Theater>
+    <Name>Regal Henrietta Stadium 18</Name>
+    <Address>525 Marketplace Drive, Rochester, NY 14623 </Address>
+    <Movies>
+        <movie>
+            <name>Rebel Without a Cause (1955) presented by TCM</name>
+            <rating>PG-13</rating>
+            <duration>2 hr 5 min</duration>
+            <showtimes>2:00p | 7:00p </showtimes>
+        </movie>
+        <movie>
+            <name>Assasination Nation</name>
+            <rating>R</rating>
+            <duration>1 hr 50 min</duration>
+            <showtimes>1:20p | 4:20p | 7:30p | 10:10p </showtimes>
+        </movie><movie>
+            <name>Fahrenheit 11/9</name>
+            <rating>R</rating>
+            <duration>2 hr 6 min</duration>
+            <showtimes>3:10p | 6:20p | 9:35p </showtimes>
+        </movie><movie>
+            <name>Life Itself(2018)</name>
+            <rating>R</rating>
+            <duration>1 hr 58 min</duration>
+            <showtimes>1:10p | 4:05p | 7:00p | 9:50p </showtimes>
+        </movie><movie>
+            <name>The House with a Clock in its Walls</name>
+            <rating>PG</rating>
+            <duration>1 hr 45 min</duration>
+            <showtimes>12:40p | 1:40p | 3:30p | 4:30p | 6:20p | 7:20p | 10:00p </showtimes>
+        </movie>
+    </Movies>
+    </Theater>
+</Theaters>
